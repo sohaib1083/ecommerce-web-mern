@@ -17,6 +17,10 @@
       {
         "src": "/(.*)",
         "dest": "backend/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/frontend/build/$1"
       }
     ]
   }
